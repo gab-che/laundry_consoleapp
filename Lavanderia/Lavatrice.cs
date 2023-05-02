@@ -35,7 +35,8 @@ namespace Lavanderia
                 Console.WriteLine($"Solo {GettoniPresenti} gettoni inseriti. Gettoni richiesti: {ProgrammaSelezionato.Gettoni}");
             else if (DetersivoPresenteMl < ProgrammaSelezionato.ConsumoDetersivoMl)
                 Console.WriteLine($"Solo {DetersivoPresenteMl} ml di detersivo presenti. Detersivo richiesto: {ProgrammaSelezionato.ConsumoDetersivoMl} ml");
-            else if (AmmorbidentePresenteMl < ProgrammaSelezionato.ConsumoAmmorbidenteMl) ;
+            else if (AmmorbidentePresenteMl < ProgrammaSelezionato.ConsumoAmmorbidenteMl)
+                Console.WriteLine($"Solo {AmmorbidentePresenteMl} ml di ammorbidente presenti. Ammorbidente richiesto: {ProgrammaSelezionato.ConsumoAmmorbidenteMl} ml");
             else
             {
                 InFunzione = true;
